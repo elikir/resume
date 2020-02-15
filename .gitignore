@@ -1,0 +1,8 @@
+*
+/davidzemlyanker
+
+
+!*.cls
+!*.tex
+!*.pdf
+!.gitignore

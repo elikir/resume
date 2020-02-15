@@ -1,0 +1,104 @@
+\documentclass{resume}
+
+\usepackage{multicol}
+\usepackage[left=0.7in,top=0.4in,right=0.5in,bottom=0.5in]{geometry}
+
+\usepackage[inline]{enumitem}
+\name{Eli Kirmayer}
+\address{ 72 Corte Yolanda \\ Moraga, CA 94556  }
+\address{ 925~$\cdot$~408~$\cdot$~7663 \\ kirmayer.e@husky.neu.edu }
+\def\nameskip{\smallskip}
+\def\sectionskip{\smallbreak}
+
+\begin{document}
+%\begin{center}
+%Third year Computer Science student eager to gain experience in the software industry.  Prior experience with python, relational and %NoSQL databases, web frameworks, and machine learning.  Interested in all things data and web related.
+%\end{center}
+
+
+  \begin{rSection}{Technical Strengths}
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+      Computer Languages & Python, Java, C, R, SQL, HTML/CSS/JavaScript, PERL, AMD64 Assembly \\
+      Databases & MySQL, Elasticsearch, Redis, MongoDB, SQLite, PostgreSQL \\
+      Tools \& Operating Systems & Git, Perforce, \LaTeX, SolidWorks, Tableau, macOS, Windows, Linux \\
+    \end{tabular}
+  \end{rSection}
+  
+  
+  
+    \begin{rSection}{Education}
+    {\bf Northeastern University - B.S. in Computer Science} \hfill {\em 2016 - Present (2021 expected)} \\ 
+    \textbf{Honors: }GPA: 3.85, Dean's List 2016 onward \\
+     \textbf{Course Assistant:} Principles of Information Science; Data Collection, Integration, and Analysis; Database Design; Large-Scale Information Storage \& Retrieval
+    
+  \end{rSection}
+  
+  \begin{rSection}{Experience}
+  
+        \begin{rSubsection}{NVIDIA}{October 2018 - December 2018, May 2019 - December 2019}{Software Engineering Co-op, MTS Tools Team}{Santa Clara, CA}
+    \item Worked on an internal Django dashboard designed to display CPU microcode performance.
+    \item Upgraded CPU build dashboard to a more recent Python version and library releases.
+    \item Migrated CPU tracer explorer with same Python version and library releases.
+    \item Displayed relevant CPU performance comparisons between runs for smoother workflow.
+    \item Designed Django and Selenium testing suites to accompany and assist tool upgrade processes.
+    \item Fixed CPU build code for MISRA Safety compliance.
+ %\end{rSubsection}
+ 
+  %    \begin{rSubsection}{NVIDIA}{October 2018 - December 2018}{Software Engineering Co-op, MTS Tools Team}{Santa Clara, CA}
+    \item Provided feedback on comprehensibility of code written and maintained by a single person.
+    \item Redesigned table data extraction and formatting to better present information organized by date.
+    \item Implemented frontend and cURL HTTP file upload.
+    \item Extracted and integrated source control information regarding performance tests results into front-end displays.
+ \end{rSubsection}
+ 
+    \begin{rSubsection}{NVIDIA}{May 2018 - October 2018}{Software Engineering Co-op, Silicon Solutions Group}{Santa Clara, CA}
+    \item Designed a web interface to interact with existing GPU data, eliminated man-hour bottlenecks automating Perl-module creation for new projects, and created a user interface to simplify modification of existing files.
+    \item Worked closely with a team of electrical engineers to meet requirements for tools to assist their work.
+    \item Created a Python library that parses Perl source and loads literals as Python dictionaries.
+    \item Refactored Perl scripts to a Python server API to simplify clock-speed calculations.
+    \end{rSubsection}
+
+    %\begin{rSubsection}{Northeastern University}{September 2017 - April 2018}{Course Assistant - Principles of Information %Science \& 	    Data Collection, Integration, and Analysis}{Boston, MA}
+    %\item Graded assignments and helped students understand machine learning, data collection, and database topics. 
+    %\item Held office hours twice a week for students to get help, work on assignments, and understand lecture material.
+    %\end{rSubsection}
+  
+    \begin{rSubsection}{Findera}{May 2017 - August 2017}{Software Engineering Intern}{San Francisco, CA}
+    \item Led design and creation of a Naive Bayes classifier to identify job titles based on Linkedin resum\'es.
+    \item Handled frontend website feature requests and bug fixes in Javascript.
+    \item Automated HTML data extraction along the data pipeline using Spark and XQuery.
+    \item Built an internal dashboard to create data-transformation rules using Flask and Elasticsearch.
+    \end{rSubsection}
+
+    \begin{rSubsection}{Pyze, Inc}{June 2016 - August 2016}{Software Engineering Intern}{Redwood City, CA}
+    \item Designed Python scripts to populate demo accounts with human-like app usage data.
+    \item Implemented automated email scripts for new customers to receive welcome emails on signup.
+    \end{rSubsection}
+
+  \end{rSection}
+
+  \begin{rSection}{Projects}
+  
+      \begin{rSubsection}{Delivery Tracking API}{August 2019 - Present}{}{}
+    \item Created a RESTful API to store and track packages in a single location via tracking numbers.
+    \item Built a custom user login system, package store, and scraping system using MongoDB and BeautifulSoup.
+  \end{rSubsection}
+  
+    \begin{rSubsection}{Counter Strike: Global Offensive Data Visualizer}{February 2019}{}{}
+    \item Extracted live gamestate data into a visualization tool to track user progress and statistics.
+  \end{rSubsection}
+  
+  \begin{rSubsection}{Real-time Trading Marketplace}{March 2018 - April 2018}{}{}
+      \item Implemented a real-time trading market in Redis to place buy and sell orders for in-game items.
+  \end{rSubsection}
+
+  \end{rSection}
+  
+
+  
+%    \begin{rSection}{Hobbies \& Interests}
+%  $\bullet$ Cars \hfill $\bullet$ Mechanical Keyboards \hfill $\bullet$ Video Games \hfill $\bullet$ Cooking \hfill $\bullet$ Percussion
+ %\end{rSection}
+  
+
+\end{document}
